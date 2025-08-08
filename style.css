@@ -266,7 +266,7 @@ html {
   .container {
     padding: 0 15px;
   }
-
+  
  .for-feature {
     height: 800px;
  }
@@ -315,7 +315,9 @@ html {
     width: 150px;
     height: 40px;
   }
-
+  .nav-button {
+    font-size: 12px;
+  }
   .logo {
     padding-left: 0;
     margin-top: 0;
@@ -499,6 +501,223 @@ html {
      width: 500px;
      height: 500px;
      margin-left: -30px;
+  }
+  .for-feature .for-title .a-btn  {
+    font-size: 15px;
+  }
+
+  .navbar {
+    margin-top: 30px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .nav-list {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .nav-items {
+    display: flex;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .nav-button {
+    margin-top: 0;
+    margin-left: 0;
+    width: 150px;
+    height: 40px;
+  }
+
+  .logo {
+    padding-left: 0;
+    margin-top: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .for-title {
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 28px;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .for-title h2 {
+    font-size: 28px;
+  }
+
+  .for-title p {
+    font-size: 16px;
+  }
+
+  .for-image img {
+    width: 90%;
+    margin: 20px auto 0 auto;
+    position: static;
+    display: block;
+  }
+   .footer {
+    height: 180px;
+   }
+  .footer2 {
+    flex-direction: column;
+    gap: 30px;
+
+  }
+  .footer-logo {
+    margin-top: 30px;
+  }
+
+  .footer-items {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  .a-btn1 a {
+    margin-left: 150px;
+    width: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 15px;
+  }
+
+ .for-feature {
+    height: 800px;
+ }
+ .for-feature .for-title {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+ }
+  .for-feature .for-image img {
+     margin-top: 45px;
+     width: 400px;
+     height: 400px;
+     margin-left: -10px;
+  }
+  .for-feature .for-title .a-btn  {
+    font-size: 15px;
+  }
+
+  .navbar {
+    margin-top: 30px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .nav-list {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .nav-items {
+    display: flex;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .nav-button {
+    margin-top: 0;
+    margin-left: 0;
+    width: 150px;
+    height: 40px;
+  }
+
+  .logo {
+    padding-left: 0;
+    margin-top: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .for-title {
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 28px;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .for-title h2 {
+    font-size: 28px;
+  }
+
+  .for-title p {
+    font-size: 16px;
+  }
+
+  .for-image img {
+    width: 90%;
+    margin: 20px auto 0 auto;
+    position: static;
+    display: block;
+  }
+   .footer {
+    height: 180px;
+   }
+  .footer2 {
+    flex-direction: column;
+    gap: 30px;
+
+  }
+  .footer-logo {
+    margin-top: 30px;
+  }
+
+  .footer-items {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  .a-btn1 a {
+    margin-left: 150px;
+    width: 180px;
+  }
+}
+
+@media (max-width: 412px) {
+  .container {
+    padding: 0 15px;
+  }
+
+ .for-feature {
+    height: 800px;
+ }
+ .for-feature .for-title {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+ }
+  .for-feature .for-image img {
+    position: relative;
+     margin-top: 45px;
+     width: 10px ;
+     height: 10px;
+     margin-left: -10px;
   }
   .for-feature .for-title .a-btn  {
     font-size: 15px;
