@@ -10,7 +10,8 @@ html {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1900px;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
 }
@@ -23,6 +24,7 @@ html {
 .nav-list {
     display: flex;
     padding: 20px;
+    padding-right: 370px;
     gap: 40px;
 }
 
@@ -30,6 +32,7 @@ html {
     display: flex;
     gap: 50px;
     color: black;
+    
 }
 
 .nav-items a {
@@ -67,13 +70,14 @@ html {
 .logo {
     margin-top: -20px;
     display: flex;
+    padding-left: 350px;
     justify-content: center;
     align-items: center;
     text-align: center;
     gap: 20px;
 }
 .for-feature {
-    width: 1900px;
+    width: 100%;
     height: 530px;
     background-color: #0eb4c1;
     margin-top: -15px;
@@ -106,7 +110,7 @@ html {
 
 .for-image img {
     display: flex;
-    position: absolute;
+    position: relative;
     margin-top: -395px;
     margin-left: 1100px;
     border-radius: 10px;
@@ -177,7 +181,7 @@ html {
     gap: 50px;
     margin-top: 50px;
     height: 300px;
-    width: 1905px;
+    width: 100%;
     background-color: #0eb4c1;
     display: flex;
     justify-content: center;
@@ -223,7 +227,7 @@ html {
     justify-content: center;
     align-items: center;
     background-color: #222222;
-    width: 1905px;
+    width: 100%;
     height: 100px;
     border: none;
 }
@@ -256,4 +260,328 @@ html {
 }
 .footer-items a:hover {
     color: #de2e54;
+}
+
+@media (max-width: 992px) {
+  .container {
+    padding: 0 15px;
+  }
+
+ .for-feature {
+    height: 800px;
+ }
+ .for-feature .for-title {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+ }
+  .for-feature .for-image img {
+     margin-top: 45px;
+     width: 500px;
+     height: 500px;
+     margin-left: 170px;
+  }
+  .for-feature .for-title .a-btn  {
+    font-size: 15px;
+  }
+
+  .navbar {
+    margin-top: 30px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .nav-list {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .nav-items {
+    display: flex;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .nav-button {
+    margin-top: 0;
+    margin-left: 0;
+    width: 150px;
+    height: 40px;
+  }
+
+  .logo {
+    padding-left: 0;
+    margin-top: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .for-title {
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 28px;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .for-title h2 {
+    font-size: 28px;
+  }
+
+  .for-title p {
+    font-size: 16px;
+  }
+
+  .for-image img {
+    width: 90%;
+    margin: 20px auto 0 auto;
+    position: static;
+    display: block;
+  }
+   .footer {
+    height: 180px;
+   }
+  .footer2 {
+    flex-direction: column;
+    gap: 30px;
+
+  }
+  .footer-logo {
+    margin-top: 30px;
+  }
+
+  .footer-items {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  .a-btn1 a {
+    margin-left: 0;
+    width: 180px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+
+ .for-feature {
+    height: 800px;
+ }
+ .for-feature .for-title {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+ }
+  .for-feature .for-image img {
+     margin-top: 45px;
+     width: 500px;
+     height: 500px;
+     margin-left: 110px;
+  }
+  .for-feature .for-title .a-btn  {
+    font-size: 15px;
+  }
+
+  .navbar {
+    margin-top: 30px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .nav-list {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .nav-items {
+    display: flex;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .nav-button {
+    margin-top: 0;
+    margin-left: 0;
+    width: 150px;
+    height: 40px;
+  }
+
+  .logo {
+    padding-left: 0;
+    margin-top: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .for-title {
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 28px;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .for-title h2 {
+    font-size: 28px;
+  }
+
+  .for-title p {
+    font-size: 16px;
+  }
+
+  .for-image img {
+    width: 90%;
+    margin: 20px auto 0 auto;
+    position: static;
+    display: block;
+  }
+   .footer {
+    height: 180px;
+   }
+  .footer2 {
+    flex-direction: column;
+    gap: 30px;
+
+  }
+  .footer-logo {
+    margin-top: 30px;
+  }
+
+  .footer-items {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  .a-btn1 a {
+    margin-left: 0;
+    width: 180px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 15px;
+  }
+
+ .for-feature {
+    height: 800px;
+ }
+ .for-feature .for-title {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+ }
+  .for-feature .for-image img {
+     margin-top: 45px;
+     width: 500px;
+     height: 500px;
+     margin-left: -30px;
+  }
+  .for-feature .for-title .a-btn  {
+    font-size: 15px;
+  }
+
+  .navbar {
+    margin-top: 30px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .nav-list {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .nav-items {
+    display: flex;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .nav-button {
+    margin-top: 0;
+    margin-left: 0;
+    width: 150px;
+    height: 40px;
+  }
+
+  .logo {
+    padding-left: 0;
+    margin-top: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .for-title {
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 28px;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .for-title h2 {
+    font-size: 28px;
+  }
+
+  .for-title p {
+    font-size: 16px;
+  }
+
+  .for-image img {
+    width: 90%;
+    margin: 20px auto 0 auto;
+    position: static;
+    display: block;
+  }
+   .footer {
+    height: 180px;
+   }
+  .footer2 {
+    flex-direction: column;
+    gap: 30px;
+
+  }
+  .footer-logo {
+    margin-top: 30px;
+  }
+
+  .footer-items {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  .a-btn1 a {
+    margin-left: 150px;
+    width: 180px;
+  }
 }
